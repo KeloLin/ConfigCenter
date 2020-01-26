@@ -6,7 +6,7 @@ spring:
 ##
 zuul:
   routes:
-    api-a:
+    order:
       path: /order/**
       serverId: order
 eureka:
