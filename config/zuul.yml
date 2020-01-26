@@ -7,8 +7,8 @@ spring:
 zuul:
   routes:
     api-a:
-      path: /menu/**
-      serverId: menu
+      path: /order/**
+      serverId: order
 eureka:
   client:
     serviceUrl:
