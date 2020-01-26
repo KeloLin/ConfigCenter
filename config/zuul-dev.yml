@@ -9,11 +9,12 @@ zuul:
     order:
       path: /order/**
       serverId: order
+  retryable: true
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-  retryable: true
+
   
 ribbon:
   ConnectTimeout: 250 # 连接超时时间(ms)
